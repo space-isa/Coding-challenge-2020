@@ -12,3 +12,5 @@ Weekdays will be for lighter programming problems. Weekends will be a mix of mor
 2020.01.28 (T): Palindrome by permutation
 
 2020.01.29 (W): Square-n-sort (the elements in an array)
+
+2020.01.30 (R): Find the majority element
