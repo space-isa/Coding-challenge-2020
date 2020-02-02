@@ -18,4 +18,13 @@ Weekends will be for more challenging problems, as well as for reviewing all of 
 
 2020.01.30 (R): Find the majority element
 
-2020.01.31 (F): To the right, to the right (finding smaller elements in the array to the right) 
+2020.01.31 (F): To the right, to the right (finding smaller elements in the array to the right)
+
+2020.02.01 (S): Coin flip (there can only be 1) 
+
+--------
+W1 reveiew: 
+--------
+
+---W2---
+2020.02.02 (U):
