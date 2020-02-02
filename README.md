@@ -6,8 +6,9 @@ Practice problems come from: Daily Coding Problem (https://www.dailycodingproble
 Weekdays will be for easy to medium programming problems.
 Weekends will be for more challenging problems, as well as for reviewing all of the daily uploads for that week. The goal of the reviews are to: 1) find ways to improve a previous solution, and 2) produce a final writeup of what I learned in the process. It is my hope that completed notebooks can be utilized as a learning/review tool. 
 
----W1---
-
+------
+Week 1
+------
 2020.01.26 (U): Reverse the bits 
 
 2020.01.27 (M): Recurring characters
@@ -22,9 +23,10 @@ Weekends will be for more challenging problems, as well as for reviewing all of 
 
 2020.02.01 (S): Coin flip (there can only be 1) 
 
---------
 W1 reveiew: 
---------
 
----W2---
+
+------
+Week 2
+------
 2020.02.02 (U):
