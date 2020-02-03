@@ -25,9 +25,6 @@ Week 1
 
 2020.02.01 (S): Coin flip (there can only be 1) 
 
-W1 reveiew: 
-
-
 ------
 Week 2
 ------
