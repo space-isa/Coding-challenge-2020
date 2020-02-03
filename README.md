@@ -6,7 +6,7 @@ Practice problems come from: Daily Coding Problem (https://www.dailycodingproble
 Weekdays will be for easy to medium programming problems**.
 Weekends will be for more challenging problems, as well as for reviewing all of the daily uploads for that week. The goal of the reviews are to: 1) find ways to improve a previous solution, and 2) produce a final writeup of what I learned in the process**. It is my hope that completed notebooks can be utilized as a learning/review tool. 
 
-** In order to make room for marginal adjustments during the challenge, the specifics of the workflow is subject to change! 
+** In order to make room for marginal adjustments during the challenge (and life!), the specifics of the workflow is subject to change! 
 
 ------
 Week 1
