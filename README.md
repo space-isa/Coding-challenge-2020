@@ -32,12 +32,12 @@ Week 2
 
 2020.02.03 (M): Does it add up (to k)? BST version
 
-2020.02.04 (T): "
+2020.02.04 (T): Does it add up (to k)? v.BST, cont.
 
-2020.02.05 (W): "
+2020.02.05 (W): Does it add up (to k)? v.BST, cont.
 
 2020.02.06 (R): Matrix spiral
 
-2020.02.07 (F): 
+2020.02.07 (F): Does it add up (to k)? v.BST, cont.
 
 2020.02.08 (S): 
