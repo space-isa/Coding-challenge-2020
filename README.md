@@ -40,4 +40,9 @@ Week 2
 
 2020.02.07 (F): Does it add up (to k)? v.BST, cont.
 
-2020.02.08 (S): 
+2020.02.08 (S): Does it add up (to k)? v.BST, cont.
+
+------
+Week 3
+------
+2020.02.09 (U): Anonymous functions
