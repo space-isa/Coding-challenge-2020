@@ -46,3 +46,5 @@ Week 2
 Week 3
 ------
 2020.02.09 (U): Anonymous functions
+
+2020.02.10 (M): Matrix maze
