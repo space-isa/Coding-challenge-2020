@@ -47,4 +47,8 @@ Week 3
 ------
 2020.02.09 (U): Anonymous functions
 
-2020.02.10 (M): Matrix maze
+2020.02.10 (M): Matrix maze (generate a random game board) 
+
+2020.02.11 (T): Matrix maze (navigate maze) 
+
+2020.02.12 (W): Matrix maze (navigate maze, cont.) 
