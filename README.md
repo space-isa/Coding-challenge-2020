@@ -52,3 +52,16 @@ Week 3
 2020.02.11 (T): Matrix maze (navigate maze) 
 
 2020.02.12 (W): Matrix maze (navigate maze, cont.) 
+
+2020.02.13 (R): Matrix maze (navigate maze, cont.) 
+
+2020.02.14 (F): Matrix maze (navigate maze, cont.) 
+
+2020.02.15 (S): Set up for email with Python project
+
+------
+Week 4
+------
+2020.02.16 (U): No upload. Hair day. 
+
+2020.02.17 (M): Code refactoring: palindrome permutation
