@@ -65,3 +65,7 @@ Week 4
 2020.02.16 (U): No upload. Hair day. 
 
 2020.02.17 (M): Code refactoring: palindrome permutation
+
+2020.02.18 (T): Plain-text email with python 
+
+2020.02.19 (W): Code refactoring: Anonymous functions
