@@ -1,5 +1,5 @@
 # Coding-challenge-2020
-This repository contains practice coding problems in Python3 (written in Jupyter Notebook). A scaled-down version of the #100DaysOfCode challenge, the goal here is to code (however imperfecty) for 30 consecutive days. 
+This repository contains practice coding problems in Python3 (written in Jupyter Notebook). A scaled-down version of the #100DaysOfCode challenge, the goal here is to code (however imperfecty) for 30 days. 
 
 Practice problems come from: Daily Coding Problem (https://www.dailycodingproblem.com/)  
 
@@ -69,3 +69,24 @@ Week 4
 2020.02.18 (T): Plain-text email with python 
 
 2020.02.19 (W): Code refactoring: Anonymous functions
+
+2020.02.20 (R): **Forgot to upload!** 
+
+2020.02.21 (F): Rectangle overlap (setup) 
+
+2020.02.22 (S): **Out of town, no upload**
+
+------
+Week 5
+------
+
+2020.02.23 (U): **Out of town, no upload**
+
+2020.02.24 (M): Plain-text email with python (added documentation) 
+
+**No uploads Tues-Sunday:** Outside of being out of town for the majority of the week, I'm taking this time to focus on unexpected research challenges, in addtition to starting in-depth research for my final term paper (which will also be featured as Medium publications). 
+
+------
+Week 6
+------
+
