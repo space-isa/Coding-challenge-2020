@@ -84,9 +84,10 @@ Week 5
 
 2020.02.24 (M): Plain-text email with python (added documentation) 
 
-**No uploads Tues-Sunday:** Outside of being out of town for the majority of the week, I'm taking this time to focus on unexpected research challenges, in addtition to starting in-depth research for my final term paper (which will also be featured as Medium publications). 
+**No uploads till next Monday:** Outside of being out of town for the majority of the week, I'm taking this time to focus on unexpected research challenges, in addtition to starting in-depth research for my final term paper (which will also be featured as Medium publications). 
 
 ------
 Week 6
 ------
 
+2020.03.02 (M): 
