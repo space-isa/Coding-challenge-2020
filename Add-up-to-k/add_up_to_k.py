@@ -57,17 +57,6 @@ def find_sums(my_list=None, k=None):
     except Exception as error: 
         print(error)
 
-    # else:
-    #     stored_values = set()
-    #     for i in range(len(my_list)):
-    #         test_value = my_list[i]
-    #         difference = k - test_value
-    #         # Check for a match 
-    #         if difference in stored_values:
-    #             return True
-    #             break
-    #         # If no match, add value to set and continue
-    #         stored_values.add(my_list[i])
 
 if __name__ == "__main__":
-    find_sums(my_list=['y', 10, 10, 7, 15, 3, 7], k = 17)
+    find_sums(my_list ,k)
