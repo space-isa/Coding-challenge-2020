@@ -28,7 +28,7 @@ Other solutions would include:
    - Traversing only a subset of the list containing values less than k (assuming positive). 
      This would involve sorting [O(n log n)], creating a new list [O(len(l1) - len(l2))], 
      and traversing that list O(len(l2)).  
-   - Checking each element against every other element. 
+   - Checking each element against every other element (brute force with O(n^2) complexity). 
  
 This approach has a time complexity of O(n), as the worst case the list only 
 has to be traversed once. 
@@ -66,6 +66,7 @@ def draw_random_inputs():
 
 @timeit
 def find_sums(my_list, k):
+    """Solution without utilizing sorting."""
     # Validate input
     try:
         if len(my_list) == 0: 
@@ -85,16 +86,40 @@ def find_sums(my_list, k):
                 else: 
                     stored_values.add(element)
             # Target was not found.
-            return ("No match found. Checked {}/{} elements.".format(elements_checked, length))  
+            print("No match found. Checked {}/{} elements.".format(elements_checked, length))  
+            return False
     except TypeError:
         raise TypeError("Please use integers or floats.")
     except Exception as error: 
         print(error)
     
+@timeit
+def find_sums_sort(my_list, k):
+    """Sort and utilize a binary search to find sum."""
+    if len(my_list) == 0: 
+        return ("This list is empty.")
+    else:
+        my_list.sort()
+        # Pointer on the left-hand side
+        i = 0
+        # Pointer on the right-hand side
+        j = len(my_list) - 1 
+
+        while(i<j):
+            if my_list[i] + my_list[j] == k:
+                return True
+            elif my_list[i] < my_list[j] == k:
+                i += 1
+            else:
+                j -= 1
+        return False
+
 def main():
     my_list, k = draw_random_inputs()
-    result = find_sums(my_list, k)
-    print(result)
+    result1 = find_sums(my_list, k)
+    print(result1)
+    result2 = find_sums_sort(my_list,k)
+    print(result2)
 
 
 if __name__ == "__main__":
