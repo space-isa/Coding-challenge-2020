@@ -95,7 +95,7 @@ def find_sums(my_list, k):
     
 @timeit
 def find_sums_sort(my_list, k):
-    """Sort and utilize a binary search to find sum."""
+    """Sort and utilize a two-pointer approach to find sum."""
     if len(my_list) == 0: 
         return ("This list is empty.")
     else:
