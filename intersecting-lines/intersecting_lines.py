@@ -36,7 +36,7 @@ results from p and q, counting only instances where an element p[i] == q[i] as i
 ALGORITHM
 ---------
 1) Ensure both input lists are of the same length.
-2) Create a "binary check" list. 
+2) Create an empty binary check list. 
 3) Take each list and compare the size of each element against its neighbors:
     - If an element is larger, add a 1 to the binary check array. 
     - Else, add a 0.
