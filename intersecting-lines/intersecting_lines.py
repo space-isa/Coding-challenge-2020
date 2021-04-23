@@ -44,6 +44,8 @@ ALGORITHM
 5) Compare elements pairwise for both binary lists:  
     - If the pairs are not equal, increment the counter by 1.
 6) Return the final value of the counter.
+
+The overall solution is order O(n^2) in time and O(n) in space.
 """
 
 import sys
@@ -53,7 +55,8 @@ def check_elements(my_list, N):
     Compare size of each element against every other element. 
     Return a list of binary numbers, with 1 signifing an element 
     is larger than its subsequent neighbor, and 0 if it is smaller 
-    than its subsequent neighbor.
+    than its subsequent neighbor. This method is O(n^2)
+    in time and O(n) in space.
     """
 
     binary_check = []
@@ -70,7 +73,8 @@ def check_elements(my_list, N):
 def find_intersection(binary_p, binary_q, len_binary):
     """
     Compare the binary results of both arrays to determine if 
-    there are two lines that intersect.
+    there are two lines that intersect. This method is O(n)
+    in time and O(1) in space.
     """
     num_intersections = 0
     for i in range(len_binary-1):
