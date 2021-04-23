@@ -1,13 +1,13 @@
+#-------------------------------------------------------------------------------
+#    Intersecting line segments
+#-------------------------------------------------------------------------------
+# By Isabel J. Rodriguez
+# Daily coding problem
+# Completed 04.14.2021
+#-------------------------------------------------------------------------------
+#    Approach   
+#-------------------------------------------------------------------------------
 """
-PROBLEM STATEMENT
------------------
-
-Suppose you are given two lists of n points, one list p1, p2, ..., pn on the line y = 0 
-and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of n line segments connecting 
-each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
-
-SOLUTION APPROACH
------------------
 We know that given 4 points: p1, q1, p2, q2 an intersection exists 
 if:
  
@@ -45,6 +45,9 @@ ALGORITHM
     - If the pairs are not equal, increment the counter by 1.
 6) Return the final value of the counter.
 """
+
+import sys
+
 def check_elements(my_list, N):
     """
     Compare size of each element against every other element. 
@@ -80,7 +83,7 @@ def find_intersection(p, q, len_binary_check):
 
 def main(p, q):
     N = len(p)
-    if len(p) != N:
+    if len(q) != N:
         return ("Your array lengths do not match.")
     check_p = check_elements(p, N)
     check_q = check_elements(q, N)
@@ -89,14 +92,9 @@ def main(p, q):
     print(num_intersections)
 
 if __name__ =="__main__":
-    p = [1,3,2,0]
-    q = [4,2,3,1]
+    try:
+        p = sys.argv[1]
+        q = sys.argv[2]
+    except Exception as error: 
+        print(error)
     main(p, q)
-
-# NOTE (turn into formal unit tests): 
-# We expect an output of: 
-# [0, 0, 1, 1, 1, 1] for p = [1, 3, 2, 0] and 
-# [1, 1, 1, 0, 1, 1,] for q = [4, 2, 3, 1]
-
-# We expect: 
-# len_binary_check = int((N ** 2 - N) / 2) 
