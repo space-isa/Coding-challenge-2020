@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------
-#    Unit Test
+#    Unit Tests
 #-------------------------------------------------------------------------------
 
 import unittest
@@ -30,7 +30,12 @@ class TestCheckElements(unittest.TestCase):
 class TestFindIntersection(unittest.TestCase):
 
     def test_find_intersection(self):
-        pass
+        binary_p = [0, 0, 1, 1, 1, 1]
+        binary_q = [1, 1, 1, 0, 1, 1]
+        len_binary = len(binary_q)
+        num_intersections = 3
+        output = find_intersection(binary_p, binary_q, len_binary)
+        self.assertEqual(output, num_intersections)
 
 class TestMain(unittest.TestCase):
 

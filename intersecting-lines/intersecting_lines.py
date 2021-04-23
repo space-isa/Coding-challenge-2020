@@ -67,14 +67,14 @@ def check_elements(my_list, N):
         j += 1
     return binary_check
 
-def find_intersection(p, q, len_binary_check):
+def find_intersection(binary_p, binary_q, len_binary):
     """
     Compare the binary results of both arrays to determine if 
     there are two lines that intersect.
     """
     num_intersections = 0
-    for i in range(len_binary_check-1):
-        if p[i] == q[i]:
+    for i in range(len_binary-1):
+        if binary_p[i] == binary_q[i]:
             num_intersections += 0
         else: 
             num_intersections += 1
@@ -85,10 +85,10 @@ def main(p, q):
     N = len(p)
     if len(q) != N:
         return ("Your array lengths do not match.")
-    check_p = check_elements(p, N)
-    check_q = check_elements(q, N)
-    len_binary_check = len(check_p)
-    num_intersections = find_intersection(check_p, check_q, len_binary_check)
+    binary_p = check_elements(p, N)
+    binary_q = check_elements(q, N)
+    len_binary = len(binary_p)
+    num_intersections = find_intersection(binary_p, binary_q, len_binary)
     print(num_intersections)
 
 if __name__ =="__main__":
